@@ -77,7 +77,7 @@ const Invoice = {
               ${installment.payments.map((p, i) => `
                 <tr>
                   <td>${i + 1}</td>
-                  <td>${Format.dateShort(p.dueDate)}</td>
+                  <td>${Format.dateShort(p.dueDate || p.due_date)}</td>
                   <td>${Format.currency(p.amount)}</td>
                   <td>${p.status === 'paid' ? 'مسدد ✅' : p.status === 'overdue' ? 'متأخر ❌' : 'قادم ⏳'}</td>
                 </tr>
