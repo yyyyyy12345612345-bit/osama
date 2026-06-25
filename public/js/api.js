@@ -848,7 +848,7 @@ const API = {
     async getSettings() {
       const doc = await db.collection('settings').doc('config').get();
       if (!doc.exists) {
-        return { shop_name: 'محل كاوتيش عربيات النقل', shop_address: '', shop_phone: '', currency: 'ج.م' };
+        return { shop_name: 'معرض الرضا', shop_address: '', shop_phone: '', currency: 'ج.م' };
       }
       return doc.data();
     },
@@ -867,7 +867,7 @@ const API = {
 
       return {
         shop: {
-          name: settings.shop_name || 'محل كاوتيش',
+          name: settings.shop_name || 'معرض الرضا',
           address: settings.shop_address || '',
           phone: settings.shop_phone || ''
         },

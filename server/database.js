@@ -116,7 +116,7 @@ function initDatabase() {
     );
 
     -- إعدادات افتراضية
-    INSERT OR IGNORE INTO settings (key, value) VALUES ('shop_name', 'محل كاوتيش عربيات النقل');
+    INSERT OR IGNORE INTO settings (key, value) VALUES ('shop_name', 'معرض الرضا');
     INSERT OR IGNORE INTO settings (key, value) VALUES ('shop_address', '');
     INSERT OR IGNORE INTO settings (key, value) VALUES ('shop_phone', '');
     INSERT OR IGNORE INTO settings (key, value) VALUES ('currency', 'ج.م');

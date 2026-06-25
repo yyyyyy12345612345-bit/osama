@@ -207,7 +207,7 @@ router.get('/invoice/:orderId', (req, res) => {
     // Return JSON invoice data instead (frontend will render it)
     const invoiceData = {
       shop: {
-        name: settings.shop_name || 'محل كاوتيش',
+        name: settings.shop_name || 'معرض الرضا',
         address: settings.shop_address || '',
         phone: settings.shop_phone || ''
       },

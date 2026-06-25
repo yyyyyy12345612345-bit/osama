@@ -61,7 +61,7 @@ const SettingsPage = {
             <div style="font-size:0.85rem;color:var(--text-secondary);line-height:2;">
               <p>📦 الإصدار: 1.0.0</p>
               <p>🗄️ قاعدة بيانات: SQLite + Firebase Backup</p>
-              <p>🚛 سيستم إدارة كاوتيش عربيات النقل</p>
+              <p>🚛 سيستم إدارة معرض الرضا</p>
             </div>
           </div>
         </div>
