@@ -1,0 +1,17 @@
+{
+  "name": "tire-shop-system",
+  "version": "1.0.0",
+  "description": "سيستم إدارة كاوتيش عربيات النقل",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "exceljs": "^4.4.0",
+    "firebase": "^11.0.0"
+  }
+}
